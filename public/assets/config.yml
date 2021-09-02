@@ -1,17 +1,24 @@
 ---
 # Homepage configuration
 # See https://fontawesome.com/icons for icons options
+# Optional: Use external configuration file.
+# Using this will ignore remaining config in this file
+# externalConfig: https://example.com/server-luci/config.yaml
 
-title: "Chandler's Dashboard"
-subtitle: "Homer"
-logo: "logo.png"
-# icon: "fas fa-skull-crossbones" # Optional icon
+title: "Home"
+subtitle: "Chandler's Dashboard"
+# logo: false
+icon: "fas fa-home" # Optional icon
 
-header: true
+header: true # Set to false to hide the header
 footer: '<p>Created with <span class="has-text-danger">❤️</span> with <a href="https://bulma.io/">bulma</a>, <a href="https://vuejs.org/">vuejs</a> & <a href="https://fontawesome.com/">font awesome</a> // Fork me on <a href="https://github.com/bastienwirtz/homer"><i class="fab fa-github-alt"></i></a></p>' # set false if you want to hide it.
 
-# Optional theme customization
-theme: default
+columns: "auto" # "auto" or number (must be a factor of 12: 1, 2, 3, 4, 6, 12)
+connectivityCheck: false # whether you want to display a message when the apps are not accessible anymore (VPN disconnected for example)
+
+# Here is the exaustive list of customization parameters
+# However all value are optional and will fallback to default if not set.
+# if you want to change only some of the colors, feel free to remove all unused key.
 colors:
   light:
     highlight-primary: "#3367d6"
@@ -41,34 +48,99 @@ colors:
 # Optional navbar
 # links: [] # Allows for navbar (dark mode, layout, and search) without any links
 links:
-  - name: "Contribute"
+  - name: "Github"
     icon: "fab fa-github"
-    url: "https://github.com/bastienwirtz/homer"
-    target: "_blank" # optional html a tag target attribute
-  - name: "Wiki"
+    url: "https://github.com/"
+
+  - name: "Blog"
     icon: "fas fa-book"
-    url: "https://www.wikipedia.org/"
-  # this will link to a second homer page that will load config from additionnal-page.yml and keep default config values as in config.yml file
-  # see url field and assets/additionnal-page.yml.dist used in this example:
-  - name: "another page!"
-    icon: "fas fa-file-alt"
-    url: "#additionnal-page"
+    url: "https://www.chand1012.dev/"
+
+  - name: "School"
+    icon: "fas fa-school"
+    url: "https://my.uakron.edu/"
 
 # Services
 # First level array represent a group.
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
+
 services:
-  - name: "Applications"
-    icon: "fas fa-cloud"
+  - name: "Work"
+    icon: "far fa-clock"
     items:
-      - name: "Awesome app"
-        logo: "assets/tools/sample.png"
-        subtitle: "Bookmark example"
-        tag: "app"
-        url: "https://www.reddit.com/r/selfhosted/"
-        target: "_blank" # optional html a tag target attribute
-      - name: "Another one"
-        logo: "assets/tools/sample2.png"
-        subtitle: "Another application"
-        tag: "app"
-        url: "#"
+      - name: "Pillar GitHub"
+        logo: "assets/tools/pillar.png"
+        subtitle: ""
+        tag: "work"
+        url: "http://192.168.1.22"
+
+      - name: "Pillar Vercel"
+        logo: "assets/tools/vercel-icon-light.png"
+        url: "https://vercel.com/pillargg"
+        tag: "work"
+
+      - name: "AWS Dashboard"
+        logo: "fab fa-aws"
+        url: "https://console.aws.amazon.com/"
+        tag: "work"
+
+      - name: "Linode Dashboard"
+        logo: "fab fa-linode"
+        url: "https://cloud.linode.com"
+        tag: "work"
+
+      - name: "My Vercel"
+        logo: "assets/tools/vercel-icon-light.png"
+        url: "https://vercel.com/chand1012"
+        tag: "work"
+
+  - name: "Frequent Links"
+    icon: ""
+    items:
+      - name: "YouTube"
+        tag: "freq"
+        logo: "fab fa-youtube"
+        subtitle: ""
+        url: "https://youtube.com/"
+
+      - name: "Twitch"
+        logo: "fab fa-twitch"
+        subtitle: ""
+        tag: "service"
+        url: "https://twitch.tv/"
+
+      - name: "GMail"
+        logo: "fas fa-envelope-open-text"
+        subtitle: ""
+        tag: "service"
+        url: "https://mail.google.com/"
+
+      - name: "Personal Outlook"
+        logo: "fas fa-at"
+        subtitle: ""
+        tag: "service"
+        url: "https://outlook.live.com/"
+
+      - name: "School Outlook"
+        logo: "fas fa-envelope-open"
+        subtitle: ""
+        tag: "service"
+        url: "https://outlook.office.com/"
+
+  - name: "Local Services"
+    icon: "fas fa-home"
+    items:
+      - name: "UnRAID"
+        logo: "assets/tools/unraid.png"
+        subtitle: "My NAS"
+        tag: "local"
+        url: "http://192.168.1.22"
+# Template:
+#  - name: ""
+#    icon: "fab fa-code-fork"
+#    items:
+#      - name: ""
+#        icon: ""
+#        tag: "service"
+#        url: "https://"
+
