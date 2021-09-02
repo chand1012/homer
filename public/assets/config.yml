@@ -94,6 +94,11 @@ services:
         url: "https://vercel.com/chand1012"
         tag: "work"
 
+      - name: "Hubspot Dashboard"
+        logo: "assets/tools/hubspot.png"
+        url: "https://app.hubspot.com"
+        tag: "work"
+
   - name: "Frequent Links"
     icon: "far fa-clock"
     items:
