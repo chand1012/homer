@@ -45,6 +45,8 @@ colors:
     card-shadow: rgba(0, 0, 0, 0.4)
     link-hover: "#ffdd57"
 
+# Optional navbar
+# links: [] # Allows for navbar (dark mode, layout, and search) without any links
 links:
   - name: "Github"
     icon: "fab fa-github"
@@ -58,7 +60,11 @@ links:
     icon: "fas fa-school"
     url: "https://my.uakron.edu/"
 
-frequents:
+# Services
+# First level array represent a group.
+# Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
+
+services:
   - name: "Work"
     icon: "fas fa-building"
     items:
@@ -74,12 +80,12 @@ frequents:
         tag: "work"
 
       - name: "AWS Dashboard"
-        logo: "fab fa-aws"
+        logo: "https://camo.githubusercontent.com/7c3bb60d7d467ae8a60ebc9b6ff8a78cf7f45b18d16570fc7b8533d9c513acca/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f616d617a6f6e2e737667"
         url: "https://console.aws.amazon.com/"
         tag: "work"
 
       - name: "Linode Dashboard"
-        logo: "fab fa-linode"
+        logo: "assets/tools/linode.png"
         url: "https://cloud.linode.com"
         tag: "work"
 
@@ -93,35 +99,35 @@ frequents:
     items:
       - name: "YouTube"
         tag: "frequent"
-        logo: "fab fa-youtube"
+        logo: "https://camo.githubusercontent.com/d54e97f5edde790381f7e62b217410df33e066a0dc8f692f2fc6b25fc1768b0c/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f796f75747562652e737667"
         subtitle: ""
         url: "https://youtube.com/"
 
       - name: "Twitch"
-        logo: "fab fa-twitch"
+        logo: "https://camo.githubusercontent.com/c5942c39052ad962364ea8286a6991f7a9b036bf1d96d20db346d9dfd844dfa4/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f7477697463682e737667"
         subtitle: ""
         tag: "frequent"
         url: "https://twitch.tv/"
 
-      - name: "GMail"
-        logo: "fas fa-envelope-open-text"
+      - name: "Gmail"
+        logo: "https://camo.githubusercontent.com/4a3dd8d10a27c272fd04b2ce8ed1a130606f95ea6a76b5e19ce8b642faa18c27/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f676d61696c2e737667"
         subtitle: ""
         tag: "frequent"
         url: "https://mail.google.com/"
 
       - name: "Personal Outlook"
-        logo: "fas fa-at"
+        logo: "https://camo.githubusercontent.com/0f3aa1f457bb92fbd2411761262ce1fb0f766ed74a4f4289bfc4a0b6024335d6/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f656d61696c2e737667"
         subtitle: ""
         tag: "frequent"
         url: "https://outlook.live.com/"
 
       - name: "School Outlook"
-        logo: "fas fa-envelope-open"
+        logo: "https://camo.githubusercontent.com/21863a9a063d33b20608be917f5601f309abec90ae5cf5dedea38bb6b55d11ab/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f6d61696c2e737667"
         subtitle: ""
         tag: "frequent"
         url: "https://outlook.office.com/"
 
-  - name: "Local frequents"
+  - name: "Local Services"
     icon: "fas fa-home"
     items:
       - name: "UnRAID"
@@ -129,3 +135,12 @@ frequents:
         subtitle: "My NAS"
         tag: "local"
         url: "http://192.168.1.22"
+# Template:
+#  - name: ""
+#    icon: "fab fa-code-fork"
+#    items:
+#      - name: ""
+#        icon: ""
+#        tag: "service"
+#        url: "https://"
+
