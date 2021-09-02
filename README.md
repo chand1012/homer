@@ -7,6 +7,10 @@
     Homer
 </h1>
 
+<h2 align="center">
+	<strong> Vercel Edition </strong>
+</h2>
+
 <h4 align="center">
 	A dead simple static <strong>HOM</strong>epage for your serv<strong>ER</strong> to keep your services on hand, from a simple <code>yaml</code> configuration file.
 </h4>
@@ -40,6 +44,7 @@
 </p>
 
 ## Table of Contents
+
 - [Features](#features)
 - [Getting started](#getting-started)
 - [Configuration](docs/configuration.md)
@@ -47,10 +52,11 @@
 - [Tips & tricks](docs/tips-and-tricks.md)
 - [Development](docs/development.md)
 
-
 ## Features
+
 - [yaml](http://yaml.org/) file configuration
 - Installable (pwa)
+- Hostable on [Vercel](https://vercel.com/)
 - Search
 - Grouping
 - Theme customization
@@ -61,12 +67,27 @@
   - `Enter` Open the first matching result (respects the bookmark's `_target` property).
   - `Alt`/`Option` + `Enter` Open the first matching result in a new tab.
 
-
 ## Getting started
 
 Homer is a full static html/js dashboard, generated from the source in `/src` using webpack. It's meant to be served by an HTTP server, **it will not work if you open dist/index.html directly over file:// protocol**.
 
 See [documentation](docs/configuration.md) for information about the configuration (`assets/config.yml`) options.
+
+### Using Vercel
+
+1. Fork or Mirror this repo.
+2. Create and commit the config.
+
+```sh
+cp public/assets/config.yml.dist public/assets/config.yml
+git add -f public/assets/config.yml
+git commit public/assets/config.yml -m "Add config"
+git push origin main
+```
+
+3. Create a new project on Vercel.
+4. Select this project when asked for a git repo.
+5. Wait for deployment.
 
 ### Using docker
 
