@@ -45,8 +45,6 @@ colors:
     card-shadow: rgba(0, 0, 0, 0.4)
     link-hover: "#ffdd57"
 
-# Optional navbar
-# links: [] # Allows for navbar (dark mode, layout, and search) without any links
 links:
   - name: "Github"
     icon: "fab fa-github"
@@ -60,13 +58,9 @@ links:
     icon: "fas fa-school"
     url: "https://my.uakron.edu/"
 
-# Services
-# First level array represent a group.
-# Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
-
-services:
+frequents:
   - name: "Work"
-    icon: "far fa-clock"
+    icon: "fas fa-building"
     items:
       - name: "Pillar GitHub"
         logo: "assets/tools/pillar.png"
@@ -95,10 +89,10 @@ services:
         tag: "work"
 
   - name: "Frequent Links"
-    icon: ""
+    icon: "far fa-clock"
     items:
       - name: "YouTube"
-        tag: "freq"
+        tag: "frequent"
         logo: "fab fa-youtube"
         subtitle: ""
         url: "https://youtube.com/"
@@ -106,28 +100,28 @@ services:
       - name: "Twitch"
         logo: "fab fa-twitch"
         subtitle: ""
-        tag: "service"
+        tag: "frequent"
         url: "https://twitch.tv/"
 
       - name: "GMail"
         logo: "fas fa-envelope-open-text"
         subtitle: ""
-        tag: "service"
+        tag: "frequent"
         url: "https://mail.google.com/"
 
       - name: "Personal Outlook"
         logo: "fas fa-at"
         subtitle: ""
-        tag: "service"
+        tag: "frequent"
         url: "https://outlook.live.com/"
 
       - name: "School Outlook"
         logo: "fas fa-envelope-open"
         subtitle: ""
-        tag: "service"
+        tag: "frequent"
         url: "https://outlook.office.com/"
 
-  - name: "Local Services"
+  - name: "Local frequents"
     icon: "fas fa-home"
     items:
       - name: "UnRAID"
@@ -135,12 +129,3 @@ services:
         subtitle: "My NAS"
         tag: "local"
         url: "http://192.168.1.22"
-# Template:
-#  - name: ""
-#    icon: "fab fa-code-fork"
-#    items:
-#      - name: ""
-#        icon: ""
-#        tag: "service"
-#        url: "https://"
-
