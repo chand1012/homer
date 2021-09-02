@@ -2,7 +2,11 @@ import Vue from "vue";
 import App from "./App.vue";
 import "./registerServiceWorker";
 
-import "@fortawesome/fontawesome-free/css/all.css";
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import "@fortawesome/fontawesome-free/css/brands.min.css";
+import "@fortawesome/fontawesome-free/css/fontawesome.min.css";
+import "@fortawesome/fontawesome-free/css/regular.min.css";
+import "@fortawesome/fontawesome-free/css/solid.min.css";
 
 import "./assets/app.scss";
 
