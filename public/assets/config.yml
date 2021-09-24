@@ -92,6 +92,11 @@ services:
         url: "https://app.hubspot.com"
         tag: "work"
 
+      - name: "Oracle Cloud"
+        logo: "assets/tools/oracle.png"
+        url: "https://cloud.oracle.com"
+        tag: "work"
+
   - name: "Frequent Links"
     icon: "far fa-clock"
     items:
