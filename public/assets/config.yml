@@ -175,6 +175,12 @@ services:
         subtitle: "My NAS"
         tag: "local"
         url: "http://192.168.1.22"
+
+      - name: "Octoprint"
+        logo: "https://octoprint.org/assets/img/logo.png"
+        subtitle: "3D Print Server"
+        url: "http://192.168.1.17"
+        tag: "local"
 # Template:
 #  - name: ""
 #    icon: "fab fa-code-fork"
