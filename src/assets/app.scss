@@ -31,6 +31,7 @@ body {
     transition: background-color cubic-bezier(0.165, 0.84, 0.44, 1) 300ms;
 
     a {
+      color: var(--link);
       &:hover {
         color: var(--link-hover);
       }
@@ -106,7 +107,7 @@ body {
     }
 
     .first-line {
-      height: 100px;
+      min-height: 100px;
       vertical-align: center;
       background-color: var(--highlight-primary);
 
@@ -121,7 +122,7 @@ body {
       }
 
       .container {
-        height: 80px;
+        min-height: 80px;
         padding: 10px 0;
       }
 
@@ -140,8 +141,7 @@ body {
         }
       }
     }
-    .navbar,
-    .navbar-menu {
+    .navbar {
       background-color: var(--highlight-secondary);
 
       a {
@@ -152,6 +152,9 @@ body {
           color: var(--text-header);
           background-color: var(--highlight-hover);
         }
+      }
+	.navbar-menu {
+      background-color: inherit;
       }
     }
     .navbar-end {
