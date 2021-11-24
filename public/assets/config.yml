@@ -53,49 +53,57 @@ links: []
 # Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
 
 services:
-  - name: "Work"
-    icon: "fas fa-building"
+  - name: "Code"
+    icon: "fas fa-code"
     items:
       - name: "GitHub"
         logo: "https://camo.githubusercontent.com/b079fe922f00c4b86f1b724fbc2e8141c468794ce8adbc9b7456e5e1ad09c622/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f6769746875622e737667"
-        tag: "work"
+        tag: "code"
         url: "https://github.com/"
 
       - name: "Pillar GitHub"
         logo: "assets/tools/pillar.png"
         subtitle: ""
-        tag: "work"
+        tag: "code"
         url: "https://github.com/pillargg"
-
-      - name: "Pillar Vercel"
-        logo: "assets/tools/vercel.png"
-        url: "https://vercel.com/pillargg"
-        tag: "work"
-
-      - name: "AWS Dashboard"
-        logo: "https://camo.githubusercontent.com/7c3bb60d7d467ae8a60ebc9b6ff8a78cf7f45b18d16570fc7b8533d9c513acca/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f616d617a6f6e2e737667"
-        url: "https://console.aws.amazon.com/"
-        tag: "work"
-
-      - name: "Linode Dashboard"
-        logo: "assets/tools/linode.png"
-        url: "https://cloud.linode.com"
-        tag: "work"
-
-      - name: "My Vercel"
-        logo: "assets/tools/vercel.png"
-        url: "https://vercel.com/chand1012"
-        tag: "work"
 
       - name: "Hubspot Dashboard"
         logo: "assets/tools/hubspot.png"
         url: "https://app.hubspot.com"
-        tag: "work"
+        tag: "code"
+
+      - name: "Sourcegraph"
+        logo: "assets/tools/sourcegraph-mark.svg"
+        url: "https://sourcegraph.com"
+        tag: "code"
+
+  - name: "Cloud"
+    icon: "fas fa-cloud"
+    items:
+      - name: "My Vercel"
+        logo: "assets/tools/vercel.png"
+        url: "https://vercel.com/chand1012"
+        tag: "cloud"
+
+      - name: "Pillar Vercel"
+        logo: "assets/tools/vercel.png"
+        url: "https://vercel.com/pillargg"
+        tag: "cloud"
+
+      - name: "AWS Dashboard"
+        logo: "https://camo.githubusercontent.com/7c3bb60d7d467ae8a60ebc9b6ff8a78cf7f45b18d16570fc7b8533d9c513acca/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f616d617a6f6e2e737667"
+        url: "https://console.aws.amazon.com/"
+        tag: "cloud"
+
+      - name: "Linode Dashboard"
+        logo: "assets/tools/linode.png"
+        url: "https://cloud.linode.com"
+        tag: "cloud"
 
       - name: "Oracle Cloud"
         logo: "assets/tools/oracle.png"
         url: "https://cloud.oracle.com"
-        tag: "work"
+        tag: "cloud"
 
   - name: "Frequent Links"
     icon: "far fa-clock"
@@ -122,18 +130,6 @@ services:
         tag: "frequent"
         url: "https://gfycat.com/"
 
-      - name: "Gmail"
-        logo: "https://camo.githubusercontent.com/4a3dd8d10a27c272fd04b2ce8ed1a130606f95ea6a76b5e19ce8b642faa18c27/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f676d61696c2e737667"
-        subtitle: ""
-        tag: "frequent"
-        url: "https://mail.google.com/"
-
-      - name: "Personal Outlook"
-        logo: "https://camo.githubusercontent.com/0f3aa1f457bb92fbd2411761262ce1fb0f766ed74a4f4289bfc4a0b6024335d6/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f656d61696c2e737667"
-        subtitle: ""
-        tag: "frequent"
-        url: "https://outlook.live.com/"
-
       - name: "My Blog"
         logo: "https://www.chand1012.dev/static/f866fe45236598e4c94f1cface3f9fee/3faea/profile-pic.webp"
         tag: "frequent"
@@ -143,6 +139,24 @@ services:
         logo: "https://camo.githubusercontent.com/6cc90061976bcd4d1a61a6c76b818538b5a65754f7b7b8068fe0fa49a09def8f/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f6465765f746f2e737667"
         tag: "frequent"
         url: "https://dev.to"
+
+  - name: "Email"
+    logo: "https://camo.githubusercontent.com/0f3aa1f457bb92fbd2411761262ce1fb0f766ed74a4f4289bfc4a0b6024335d6/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f656d61696c2e737667"
+    items:
+      - name: "Gmail"
+        logo: "https://camo.githubusercontent.com/4a3dd8d10a27c272fd04b2ce8ed1a130606f95ea6a76b5e19ce8b642faa18c27/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f676d61696c2e737667"
+        tag: "email"
+        url: "https://mail.google.com/"
+
+      - name: "Personal Outlook"
+        logo: "https://camo.githubusercontent.com/0f3aa1f457bb92fbd2411761262ce1fb0f766ed74a4f4289bfc4a0b6024335d6/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f656d61696c2e737667"
+        tag: "email"
+        url: "https://outlook.live.com/"
+
+      - name: "Guerilla Mail"
+        logo: "https://raw.githubusercontent.com/flashmob/go-guerrilla/master/GoGuerrilla.png"
+        tag: "email"
+        url: "https://www.guerrillamail.com"
 
   - name: "School"
     icon: "fas fa-school"
@@ -181,12 +195,3 @@ services:
         subtitle: "3D Print Server"
         url: "http://192.168.1.17"
         tag: "local"
-# Template:
-#  - name: ""
-#    icon: "fab fa-code-fork"
-#    items:
-#      - name: ""
-#        icon: ""
-#        tag: "service"
-#        url: "https://"
-
