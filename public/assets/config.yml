@@ -61,16 +61,16 @@ services:
         tag: "code"
         url: "https://github.com/"
 
+      - name: "Multisig Labs GitHub"
+        logo: "https://avatars.githubusercontent.com/u/99089702"
+        tag: "code"
+        url: "https://github.com/multisig-labs"
+
       - name: "Pillar GitHub"
         logo: "assets/tools/pillar.png"
         subtitle: ""
         tag: "code"
         url: "https://github.com/pillargg"
-
-      - name: "Hubspot Dashboard"
-        logo: "assets/tools/hubspot.png"
-        url: "https://app.hubspot.com"
-        tag: "code"
 
       - name: "Sourcegraph"
         logo: "assets/tools/sourcegraph-mark.svg"
@@ -90,43 +90,82 @@ services:
         url: "https://vercel.com/pillargg"
         tag: "cloud"
 
+      - name: "Linode"
+        logo: "assets/tools/linode.png"
+        tag: "cloud"
+        url: "https://cloud.linode.com"
+
+      - name: "Vultr"
+        logo: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fbluetailcoupon.net%2Fwp-content%2Fuploads%2F2020%2F01%2Flogo-vultr-png.png"
+        url: "https://my.vultr.com"
+        tag: "cloud"
+
       - name: "AWS Dashboard"
         logo: "https://camo.githubusercontent.com/7c3bb60d7d467ae8a60ebc9b6ff8a78cf7f45b18d16570fc7b8533d9c513acca/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f616d617a6f6e2e737667"
         url: "https://console.aws.amazon.com/"
         tag: "cloud"
 
-  - name: "Frequent Links"
+  - name: "Knowledge"
+    icon: "fas fa-lightbulb"
+    items:
+      - name: "GitBook"
+        logo: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.icon-icons.com%2Ficons2%2F2699%2FPNG%2F512%2Fgitbook_logo_icon_168173.png&f=1&nofb=1"
+        tag: "knowledge"
+        url: "https://app.gitbook.com"
+
+      - name: "Notion"
+        logo: "assets/tools/notion.png"
+        tag: "knowledge"
+        url: "https://www.notion.so"
+
+      - name: "Multisig Handbook"
+        logo: "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/google/313/closed-book_1f4d5.png"
+        tag: "knowledge"
+        url: "https://multisig-labs.gitbook.io/handbook/"
+
+      - name: "Multisig Knowledge Base"
+        logo: "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/google/313/light-bulb_1f4a1.png"
+        tag: "knowledge"
+        url: "https://multisig-labs.gitbook.io/public-knowledge-base/"
+
+  - name: "Content"
     icon: "far fa-clock"
     items:
       - name: "YouTube"
-        tag: "frequent"
+        tag: "content"
         logo: "https://camo.githubusercontent.com/d54e97f5edde790381f7e62b217410df33e066a0dc8f692f2fc6b25fc1768b0c/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f796f75747562652e737667"
-        subtitle: ""
         url: "https://youtube.com/"
 
       - name: "Reddit"
-        tag: "frequent"
+        tag: "content"
         logo: "https://camo.githubusercontent.com/521640dc2dba501cde1805c0a42cecf5ccf7fc1378f542fe9fda756fb36add25/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f7265646469742e737667"
         url: "https://reddit.com/"
 
       - name: "Twitch"
         logo: "https://camo.githubusercontent.com/c5942c39052ad962364ea8286a6991f7a9b036bf1d96d20db346d9dfd844dfa4/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f7477697463682e737667"
-        subtitle: ""
-        tag: "frequent"
+        tag: "content"
         url: "https://twitch.tv/"
 
       - name: "Gfycat"
         logo: "assets/tools/gfycat.png"
-        tag: "frequent"
+        tag: "content"
         url: "https://gfycat.com/"
 
       - name: "Dev.to"
         logo: "https://camo.githubusercontent.com/6cc90061976bcd4d1a61a6c76b818538b5a65754f7b7b8068fe0fa49a09def8f/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f6465765f746f2e737667"
-        tag: "frequent"
+        tag: "content"
         url: "https://dev.to"
 
+      - name: "Twitter"
+        logo: "https://camo.githubusercontent.com/35b0b8bfbd8840f35607fb56ad0a139047fd5d6e09ceb060c5c6f0a5abd1044c/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f747769747465722e737667"
+        tag: "content"
+        url: "https://twitter.com"
+
+  - name: "News"
+    icon: "fas fa-newspaper"
+    items:
       - name: "Hacker News"
-        tag: "frequent"
+        tag: "news"
         logo: "https://news.ycombinator.com/favicon.ico"
         url: "https://news.ycombinator.com/"
 
