@@ -121,12 +121,12 @@ services:
       - name: "Multisig Handbook"
         logo: "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/google/313/closed-book_1f4d5.png"
         tag: "knowledge"
-        url: "https://multisig-labs.gitbook.io/handbook/"
+        url: "https://chand1012.gitbook.io/multisig-employee-handbook/"
 
       - name: "Multisig Knowledge Base"
         logo: "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/google/313/light-bulb_1f4a1.png"
         tag: "knowledge"
-        url: "https://multisig-labs.gitbook.io/public-knowledge-base/"
+        url: "https://chand1012.gitbook.io/multisig-labs-knowledge-base/"
 
   - name: "Content"
     icon: "far fa-clock"
