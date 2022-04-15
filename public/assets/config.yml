@@ -66,11 +66,15 @@ services:
         tag: "code"
         url: "https://github.com/multisig-labs"
 
-      - name: "Pillar GitHub"
-        logo: "assets/tools/pillar.png"
-        subtitle: ""
+      - name: "Casual Coders GitHub"
+        logo: "https://avatars.githubusercontent.com/u/94408851"
         tag: "code"
-        url: "https://github.com/pillargg"
+        url: "https://github.com/CasualCodersProjects/"
+
+      - name: "Protocol 45 GitHub"
+        logo: "https://avatars.githubusercontent.com/u/103071095"
+        tag: "code"
+        url: "https://github.com/protocol-45/"
 
       - name: "Sourcegraph"
         logo: "assets/tools/sourcegraph-mark.svg"
@@ -85,9 +89,9 @@ services:
         url: "https://vercel.com/chand1012"
         tag: "cloud"
 
-      - name: "Pillar Vercel"
-        logo: "assets/tools/vercel.png"
-        url: "https://vercel.com/pillargg"
+      - name: "Cloudflare"
+        logo: "https://camo.githubusercontent.com/ea9deae9e6206b6a2ca350a8913b332966e3ae4e678d8be99fae2efc2a9fb4e9/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f636c6f7564666c6172652e737667"
+        url: "https://dash.cloudflare.com"
         tag: "cloud"
 
       - name: "Linode"
@@ -118,6 +122,11 @@ services:
         tag: "knowledge"
         url: "https://www.notion.so"
 
+      - name: "HackMD"
+        logo: "https://camo.githubusercontent.com/6ae487ec56908a6fea7e7f58bb04f09786fc25954ac2a41dceb69b6a2c61b5c5/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f6d61726b646f776e2e737667"
+        tag: "knowledge"
+        url: "https://hackmd.io"
+
       - name: "Multisig Handbook"
         logo: "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/google/313/closed-book_1f4d5.png"
         tag: "knowledge"
@@ -126,7 +135,7 @@ services:
       - name: "Multisig Knowledge Base"
         logo: "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/google/313/light-bulb_1f4a1.png"
         tag: "knowledge"
-        url: "https://chand1012.gitbook.io/multisig-labs-knowledge-base/"
+        url: "https://knowledge.multisiglabs.org"
 
   - name: "Content"
     icon: "far fa-clock"
@@ -186,6 +195,11 @@ services:
         logo: "https://raw.githubusercontent.com/flashmob/go-guerrilla/master/GoGuerrilla.png"
         tag: "email"
         url: "https://www.guerrillamail.com"
+      
+      - name: "ProtonMail"
+        logo: "https://camo.githubusercontent.com/1d0fd07b777412c2b606377c753b1f3811532f38661d0bd580c7614944f781e2/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f70726f746f6e6d61696c2e737667"
+        tag: "email"
+        url: "https://protonmail.com"
 
   - name: "School"
     icon: "fas fa-school"
