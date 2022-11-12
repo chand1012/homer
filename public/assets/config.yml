@@ -145,6 +145,11 @@ services:
         logo: "https://camo.githubusercontent.com/d54e97f5edde790381f7e62b217410df33e066a0dc8f692f2fc6b25fc1768b0c/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f796f75747562652e737667"
         url: "https://youtube.com/"
 
+      - name: "YCombinator"
+        tag: "content"
+        logo: "https://camo.githubusercontent.com/3146094aa120959b37126b9f6c72dae96b98576c8ef1ae89861d5e09e1585e88/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f6861636b65726e6577732e737667"
+        url: "https://news.ycombinator.com/"
+
       - name: "Reddit"
         tag: "content"
         logo: "https://camo.githubusercontent.com/521640dc2dba501cde1805c0a42cecf5ccf7fc1378f542fe9fda756fb36add25/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f7265646469742e737667"
@@ -200,7 +205,7 @@ services:
         logo: "https://raw.githubusercontent.com/flashmob/go-guerrilla/master/GoGuerrilla.png"
         tag: "email"
         url: "https://www.guerrillamail.com"
-      
+
       - name: "ProtonMail"
         logo: "https://camo.githubusercontent.com/1d0fd07b777412c2b606377c753b1f3811532f38661d0bd580c7614944f781e2/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f70726f746f6e6d61696c2e737667"
         tag: "email"
