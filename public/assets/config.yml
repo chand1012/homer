@@ -118,6 +118,11 @@ services:
         tag: "knowledge"
         url: "https://hackmd.io"
 
+      - name: "ChatGPT"
+        logo: "assets/tools/chatgpt.png"
+        tag: "knowledge"
+        url: "https://chat.openai.com"
+
   - name: "Dev Content"
     icon: "fas fa-newspaper"
     items:
