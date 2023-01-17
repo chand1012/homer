@@ -71,6 +71,11 @@ services:
         tag: "code"
         url: "https://github.com/CasualCodersProjects/"
 
+      - name: "ZenHub"
+        logo: "assets/tools/zenhub.png"
+        tag: "code"
+        url: "https://app.zenhub.com/"
+
 
   - name: "Cloud"
     icon: "fas fa-cloud"
