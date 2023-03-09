@@ -66,6 +66,11 @@ services:
         tag: "code"
         url: "https://github.com/multisig-labs"
 
+      - name: "TimeSurge Labs GitHub"
+        logo: "https://avatars.githubusercontent.com/u/126103039"
+        tag: "code"
+        url: "https://github.com/TimeSurgeLabs"
+
       - name: "Casual Coders GitHub"
         logo: "https://avatars.githubusercontent.com/u/94408851"
         tag: "code"
@@ -75,7 +80,6 @@ services:
         logo: "assets/tools/zenhub.png"
         tag: "code"
         url: "https://app.zenhub.com/"
-
 
   - name: "Cloud"
     icon: "fas fa-cloud"
@@ -90,13 +94,18 @@ services:
         url: "https://dash.cloudflare.com"
         tag: "cloud"
 
+      - name: "Fly.io"
+        logo: "assets/tools/flyio.svg"
+        url: "https://fly.io/dashboard"
+        tag: "cloud"
+
       - name: "Linode"
         logo: "assets/tools/linode.png"
         tag: "cloud"
         url: "https://cloud.linode.com"
 
       - name: "Vultr"
-        logo: "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fbluetailcoupon.net%2Fwp-content%2Fuploads%2F2020%2F01%2Flogo-vultr-png.png"
+        logo: "assets/tools/vultr.svg"
         url: "https://my.vultr.com"
         tag: "cloud"
 
@@ -145,7 +154,6 @@ services:
         tag: "content"
         logo: "https://camo.githubusercontent.com/3146094aa120959b37126b9f6c72dae96b98576c8ef1ae89861d5e09e1585e88/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f6861636b65726e6577732e737667"
         url: "https://news.ycombinator.com/"
-
 
   - name: "Social Media"
     icon: "far fa-clock"
