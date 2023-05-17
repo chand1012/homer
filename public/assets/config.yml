@@ -76,6 +76,11 @@ services:
         tag: "code"
         url: "https://github.com/CasualCodersProjects/"
 
+      - name: "Casual Coders Gitea"
+        logo: "https://camo.githubusercontent.com/5ae01205835404b14b7551f5e00f8e26a748123dd63a63f372a496c0afe62ae4/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f67697465612e737667"
+        tag: "code"
+        url: "https://git.casualcoders.dev/"
+
       - name: "ZenHub"
         logo: "assets/tools/zenhub.png"
         tag: "code"
