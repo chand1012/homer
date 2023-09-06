@@ -86,10 +86,10 @@ services:
         tag: "code"
         url: "https://app.zenhub.com/"
 
-      - name: "Grafana"
-        logo: "https://camo.githubusercontent.com/bee320292f0271ebca73841185b7d354e32113cec197347df8d80e5fda596b96/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f67726166616e612e737667"
+      - name: Chalk.ist
+        logo: "assets/tools/chalkist.png"
         tag: "code"
-        url: "https://multisiglabs.grafana.net/"
+        url: "https://chalk.ist/"
 
   - name: "Cloud"
     icon: "fas fa-cloud"
@@ -119,6 +119,11 @@ services:
         url: "https://hosting.timesurgelabs.com"
         tag: "cloud"
 
+      - name: "GGP Coolify"
+        logo: "https://img.stackshare.io/service/25349/default_6e7726a0967311ee525719c9d672de5edb5e52a7.png"
+        url: "https://hosting.multisiglabs.org"
+        tag: "cloud"
+
       - name: "AWS Dashboard"
         logo: "https://camo.githubusercontent.com/7c3bb60d7d467ae8a60ebc9b6ff8a78cf7f45b18d16570fc7b8533d9c513acca/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f616d617a6f6e2e737667"
         url: "https://console.aws.amazon.com/"
@@ -128,6 +133,13 @@ services:
         logo: https://assets-global.website-files.com/5f217a8e6bc2c82a9d803089/61017dd0164588384850f768_Tenderly-logo-symbol.png
         url: "https://dashboard.tenderly.co/"
         tag: "cloud"
+
+
+      - name: "Grafana"
+        logo: "https://camo.githubusercontent.com/bee320292f0271ebca73841185b7d354e32113cec197347df8d80e5fda596b96/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f67726166616e612e737667"
+        tag: "cloud"
+        url: "https://multisiglabs.grafana.net/"
+
 
   - name: "Productivity"
     logo: "https://camo.githubusercontent.com/0f3aa1f457bb92fbd2411761262ce1fb0f766ed74a4f4289bfc4a0b6024335d6/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f656d61696c2e737667"
