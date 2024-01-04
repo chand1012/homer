@@ -114,11 +114,6 @@ services:
         url: "https://hosting.timesurgelabs.com"
         tag: "cloud"
 
-      - name: "N8N"
-        logo: https://avatars.githubusercontent.com/u/45487711
-        url: "https://n8n.hosting.timesurgelabs.com"
-        tag: "cloud"
-
       - name: "GGP Coolify"
         logo: "https://img.stackshare.io/service/25349/default_6e7726a0967311ee525719c9d672de5edb5e52a7.png"
         url: "https://hosting.multisiglabs.org"
@@ -135,7 +130,7 @@ services:
         url: "https://multisiglabs.grafana.net/"
 
   - name: "Productivity"
-    logo: "https://camo.githubusercontent.com/0f3aa1f457bb92fbd2411761262ce1fb0f766ed74a4f4289bfc4a0b6024335d6/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f656d61696c2e737667"
+    logo: "fas fa-file"
     items:
       - name: "Gmail"
         logo: "https://camo.githubusercontent.com/443a1f864f5b7f354e65595d3713156bfab31c7caa731f3f1d214b87aba63168/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f676d61696c2e737667"
@@ -151,6 +146,11 @@ services:
         logo: "assets/tools/notion.png"
         tag: "productivity"
         url: "https://www.notion.so"
+
+      - name: "N8N"
+        logo: https://avatars.githubusercontent.com/u/45487711
+        url: "https://n8n.hosting.timesurgelabs.com"
+        tag: "productivity"
 
       - name: "ChatGPT"
         logo: "assets/tools/chatgpt.png"
@@ -171,11 +171,6 @@ services:
         logo: "https://camo.githubusercontent.com/e626c5e6524798b6b31cb05eddba0fb781bd2f920f11fa3261692e61db288696/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f6f75746c6f6f6b2e737667"
         tag: "productivity"
         url: "https://outlook.live.com/"
-
-      - name: "ProtonMail"
-        logo: "https://camo.githubusercontent.com/fdab62a98c8f9c72b53a31730d20b5108eefaf38d7569602cf3e07fce1f9db96/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f70726f746f6e6d61696c2e737667"
-        tag: "productivity"
-        url: "https://protonmail.com"
 
   - name: "Content"
     icon: "fas fa-code"
